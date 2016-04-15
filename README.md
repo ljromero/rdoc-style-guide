@@ -13,6 +13,25 @@ A good, but unofficial, Rdoc style guide.
     OPTIONS = {opt1: 0,
                opt2: 1,
                opt3: 2}
+  ```
+
+<section id="constants-list" class="section">
+      <h3 class="section-header">Constants</h3>
+      <dl>
+      
+        <dt id="RISK_LEVEL">RISK_LEVEL
+        
+        </dt><dd class="description"><ul><li>
+<p><code>0</code> - Risk data disabled</p>
+</li><li>
+<p><code>1</code> - Risk data enabled only for the current company</p>
+</li><li>
+<p><code>2</code> - Risk data enabled by default</p>
+</li></ul>
+        
+      
+      </dd></dl>
+    </section>
 
 # References
 
