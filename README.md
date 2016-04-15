@@ -4,6 +4,12 @@ A good, but unofficial, Rdoc style guide.
 
 ## Table of Contents
 
+* [Constants](#constants)
+* [Actions](#actions)
+* [Warnings](#warnings)
+* [References](#references)
+* [License](#license)
+
 ## Constants
 
   ```Ruby
@@ -15,23 +21,37 @@ A good, but unofficial, Rdoc style guide.
                opt3: 2}
   ```
 
-<section id="constants-list" class="section">
-      <h3 class="section-header">Constants</h3>
-      <dl>
-      
-        <dt id="RISK_LEVEL">RISK_LEVEL
-        
-        </dt><dd class="description"><ul><li>
-<p><code>0</code> - Risk data disabled</p>
-</li><li>
-<p><code>1</code> - Risk data enabled only for the current company</p>
-</li><li>
-<p><code>2</code> - Risk data enabled by default</p>
-</li></ul>
-        
-      
-      </dd></dl>
-    </section>
+  ![alt tag](https://raw.githubusercontent.com/ljromero/rdoc-style-guide/master/app/assets/images/constants.png)
+
+## Warnings
+
+  ```Ruby
+    # *WARNING*: This is a warning comment to advise about
+    # an specific behaviour.
+  ```
+
+## Actions
+
+  ```Ruby
+    # Returns the rating value for all the companies requested
+    #
+    # *WARNING*: This is a warning comment to advise about
+    # an specific behaviour.
+    #
+    # ==== Params
+    # * +ids+ - {id1 => md5_1, id2 => md5_2, ...} - JSON object with all the companies to return their risk. Each company is added to the object
+    # with the company_id as key, and the md5 as its value (for security purposes).
+    #
+    # ==== Returns
+    # * +H+ - High risk rating
+    # * +M+ - Medium risk rating
+    # * +L+ - Low risk rating
+    #
+    # ==== Examples
+    # Response example:
+    #
+    #    {"184812":"L","474464":"","616033":"M","818649":"M","859594":"M",...}
+  ```
 
 # References
 
