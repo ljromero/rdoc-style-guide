@@ -22,9 +22,7 @@ A good, but unofficial, Rdoc style guide.
   ```
 
   ![alt tag](https://raw.githubusercontent.com/ljromero/rdoc-style-guide/master/app/assets/images/constants.png)
-  ![alt tag](https://raw.githubusercontent.com/ljromero/rdoc-style-guide/master/app/assets/images/constants.png)
-
-  [Live Sample](http://htmlpreview.github.io/?https://github.com/ljromero/rdoc-style-guide/blob/master/doc/WelcomeController.html)
+  ![alt tag](https://raw.githubusercontent.com/ljromero/rdoc-style-guide/master/app/assets/images/constants2.png)
 
 ## Warnings
 
