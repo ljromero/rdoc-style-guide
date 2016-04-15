@@ -22,8 +22,6 @@ A good, but unofficial, Rdoc style guide.
   ```
 
   ![alt tag](https://raw.githubusercontent.com/ljromero/rdoc-style-guide/master/app/assets/images/constants.png)
-  ![alt tag](https://raw.githubusercontent.com/ljromero/rdoc-style-guide/master/app/assets/images/constants2.png)
-  ![alt tag](https://raw.githubusercontent.com/ljromero/rdoc-style-guide/master/app/assets/images/constants3.png)
 
 ## Warnings
 
