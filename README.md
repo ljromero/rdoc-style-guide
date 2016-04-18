@@ -28,6 +28,8 @@ A good, but unofficial, Rdoc style guide.
   ```Ruby
     # *WARNING*: This is a warning comment to advise about
     # an specific behaviour.
+    def index
+    end
   ```
 
   ![alt tag](https://raw.githubusercontent.com/ljromero/rdoc-style-guide/master/app/assets/images/warnings.png)
@@ -35,14 +37,17 @@ A good, but unofficial, Rdoc style guide.
 ## Actions
 
   ```Ruby
-    # Returns the rating value for all the companies requested
+    # This is the main goal of the method we are documenting. Please, write simple
+    # and declarative sentences. Brevity is a plus: remember, get to the point.
     #
     # *WARNING*: This is a warning comment to advise about
     # an specific behaviour.
     #
     # ==== Params
-    # * +ids+ - {id1 => md5_1, id2 => md5_2, ...} - JSON object with all the companies to return their risk. Each company is added to the object
-    # with the company_id as key, and the md5 as its value (for security purposes).
+    # * +p1+ - Integer - P1 little description.
+    # * +p2+ - String - P2 little description.
+    # * +p3+ - Hash - P3 little description.
+    # * +p4+ - Array - P4 little description.
     #
     # ==== Returns
     # * +H+ - High risk rating

@@ -82,11 +82,17 @@
   
     <li><a href="./app/assets/javascripts/application_js.html">application.js</a>
   
+    <li><a href="./app/assets/javascripts/articles_coffee.html">articles.coffee</a>
+  
     <li><a href="./app/assets/javascripts/welcome_coffee.html">welcome.coffee</a>
   
     <li><a href="./app/assets/stylesheets/application_css.html">application.css</a>
   
+    <li><a href="./app/assets/stylesheets/articles_scss.html">articles.scss</a>
+  
     <li><a href="./app/assets/stylesheets/welcome_scss.html">welcome.scss</a>
+  
+    <li><a href="./app/views/articles/new_html.html">new.html</a>
   
     <li><a href="./config_ru.html">config.ru</a>
   
@@ -138,22 +144,22 @@ src="https://raw.githubusercontent.com/ljromero/rdoc-style-guide/master/app/asse
 <h2 id="label-Warnings">Warnings<span><a href="#label-Warnings">&para;</a> <a href="#top">&uarr;</a></span></h2>
 
 <p><code>Ruby     # <strong>WARNING</strong>: This is a warning comment to
-advise about     # an specific behaviour. </code></p>
+advise about     # an specific behaviour.     def index     end </code></p>
 
 <p><img
 src="https://raw.githubusercontent.com/ljromero/rdoc-style-guide/master/app/assets/images/warnings.png"></p>
 
 <h2 id="label-Actions">Actions<span><a href="#label-Actions">&para;</a> <a href="#top">&uarr;</a></span></h2>
 
-<p><code>Ruby     # Returns the rating value for all the companies requested  
-#     # <strong>WARNING</strong>: This is a warning comment to advise about
-# an specific behaviour.     #     # ==== Params     # * ids - {id1 =&gt;
-md5_1, id2 =&gt; md5_2, ...} - JSON object with all the companies to return
-their risk. Each company is added to the object     # with the company_id
-as key, and the md5 as its value (for security purposes).     #     # ====
-Returns     # * H - High risk rating     # * M - Medium risk rating     # *
-L - Low risk rating     #     # ==== Examples     # Response example:     #
-#   
+<p><code>Ruby     # This is the main goal of the method we are documenting.
+Please, write simple     # and declarative sentences. Brevity is a plus:
+remember, get to the point.     #     # <strong>WARNING</strong>: This is a
+warning comment to advise about     # an specific behaviour.     #     #
+==== Params     # * p1 - Integer - P1 little description.     # * p2 -
+String - P2 little description.     # * p3 - Hash - P3 little description. 
+# * p4 - Array - P4 little description.     #     # ==== Returns     # * H
+- High risk rating     # * M - Medium risk rating     # * L - Low risk
+rating     #     # ==== Examples     # Response example:     #     #   
 {&quot;184812&quot;:&quot;L&quot;,&quot;474464&quot;:&quot;&quot;,&quot;616033&quot;:&quot;M&quot;,&quot;818649&quot;:&quot;M&quot;,&quot;859594&quot;:&quot;M&quot;,...}
 </code></p>
 
