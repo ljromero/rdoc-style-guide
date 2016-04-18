@@ -7,6 +7,9 @@ class WelcomeController < ApplicationController
              opt2: 1,
              opt3: 2}
 
+  # *WARNING*: This is a warning comment to advise about
+  # an specific behaviour.
   def index
   end
+
 end

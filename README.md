@@ -30,6 +30,8 @@ A good, but unofficial, Rdoc style guide.
     # an specific behaviour.
   ```
 
+  ![alt tag](https://raw.githubusercontent.com/ljromero/rdoc-style-guide/master/app/assets/images/warnings.png)
+
 ## Actions
 
   ```Ruby
