@@ -50,14 +50,16 @@ A good, but unofficial, Rdoc style guide.
     # * +p4+ - Array - P4 little description.
     #
     # ==== Returns
-    # * +H+ - High risk rating
-    # * +M+ - Medium risk rating
-    # * +L+ - Low risk rating
+    # * +article+ - Article - Just created article.
     #
     # ==== Examples
     # Response example:
     #
-    #    {"184812":"L","474464":"","616033":"M","818649":"M","859594":"M",...}
+    #    {"title"=>"First article!", "text"=>"This is my first article."}
+    # ---
+    def create
+      render plain: params[:article].inspect
+    end
   ```
 
 # References
